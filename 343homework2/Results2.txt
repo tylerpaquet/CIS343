@@ -1,0 +1,201 @@
+2BCDMS1  DFHMSD TYPE=MAP,                                              X
+
+Nonvalid character in column 1
+
+:               LANG=COBOL,                                             X
+
+There is no erros on this line
+
+:               MODE=INOUT,                                             X
+
+There is no erros on this line
+
+:               TIOAPFX=YES,                                            X
+
+There is no erros on this line
+
+:               TERM=3270-2,                                            X
+
+There is no erros on this line
+
+:               MAPATTS=(COLOR,HILIGHT),                                X
+
+There is no erros on this line
+
+:               STORAGE=AUTO,                                           X
+
+There is no erros on this line
+
+:               CTRL=FREEKB
+
+There is no erros on this line
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:  Only one Map in MapSet
+
+Non-blank characters in columns 8 or 9
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:MAPABC12 DFHMDI SIZE=(24,80),                                          X
+
+Non-blank characters in columns 8 or 9
+
+:               LINE=1,                                                 X
+
+There is no erros on this line
+
+:               COLUMN=1
+
+There is no erros on this line
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:*  Defining individual Fields
+
+Non-blank characters in columns 8 or 9
+
+:*  First field is a constant
+
+Non-blank characters in columns 8 or 9
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:        DFHMDF POS=(10,10),                                            X
+
+Non-blank characters in columns 8 or 9
+
+:               LENGTH=08,                                              X
+
+There is no erros on this line
+
+:               INITIAL='ABC INC.',                                     X
+
+There is no erros on this line
+
+:               ATTRB=(BRT,PROT)
+
+There is no erros on this line
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:&  MESSAGE CONSTANT                                        
+
+Nonvalid character in column 1
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:         DFHMDFFPOS=(22,10),                                           X
+
+There is no erros on this line
+
+:               LENGTH=8,                                               X
+
+There is no erros on this line
+
+:                 COLOR=BLUE,                                           X
+
+Operand in wrong column
+
+:               ATTRB=(BRT,PROT)                                        X
+
+There is no erros on this line
+
+:                 INITIAL='MESSAGE:'
+
+Operand in wrong column
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:*  MESSAGE VARIABLE
+
+Non-blank characters in columns 8 or 9
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:mESSAGE  DFHMDF POS=(22,19),                                           X
+
+There is no erros on this line
+
+:               LENGTH=50,                                              X
+
+There is no erros on this line
+
+:               ATTRB=PROT
+
+There is no erros on this line
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:*  NOMFAIL USED TO PREVENT MAPFAILS BY INSURING THAT AT LEAST
+
+Non-blank characters in columns 8 or 9
+
+:*   ONE BYTE OF DATA IS ALWAYS PASSED BETWEEN MAP AND PROGRAM
+
+Non-blank characters in columns 8 or 9
+
+:*   THAT CALLS IT
+
+Non-blank characters in columns 8 or 9
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:NOMFAIL  DFHMFD POS=(23,79),                                           X
+
+There is no erros on this line
+
+:             LENGTH=1,                                                 X
+
+There is no erros on this line
+
+:             ATTRB=(DRK,PROT,FSET),                                    X
+
+There is no erros on this line
+
+:             INITIAL=' '
+
+There is no erros on this line
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:* INDICATES END OF MAPSET
+
+Non-blank characters in columns 8 or 9
+
+:***************************************************************
+
+Non-blank characters in columns 8 or 9
+
+:         DFHMSD TYPE=FINAL                                           
+
+There is no erros on this line
+
+:         END
+
+Last line not just END in place of op code
+
+:

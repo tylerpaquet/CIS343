@@ -1,0 +1,12 @@
+INSERT INTO Rooms VALUES (002, 'Recovery');
+INSERT INTO Rooms VALUES (005, 'Recovery');
+INSERT INTO Rooms VALUES (012, 'Recovery');
+INSERT INTO Rooms VALUES (014, 'Recovery');
+INSERT INTO Rooms VALUES (042, 'Surgery');
+INSERT INTO Rooms VALUES (999, 'Surgery');
+INSERT INTO Rooms VALUES (021, 'Surgery');
+INSERT INTO Rooms VALUES (002, 'Surgery');
+INSERT INTO Rooms VALUES (010, 'General');
+INSERT INTO Rooms VALUES (033, 'General');
+INSERT INTO Rooms VALUES (222, 'General');
+INSERT INTO Rooms VALUES (001, 'General');

@@ -1,0 +1,109 @@
+LOSMATT  DFHMSD TYPE=MAP,                                              X
+
+There is no erros on this line
+
+:               MODE=INOUT,                                             X
+
+There is no erros on this line
+
+:               TIOAPFX=YES,                                            X
+
+There is no erros on this line
+
+:               TERM=3270-2,                                            X
+
+There is no erros on this line
+
+:               LANG=COBOL,                                             X
+
+There is no erros on this line
+
+:               MAPATTS=(COLOR,HILIGHT),                                X
+
+There is no erros on this line
+
+:               DSATTS=(COLOR,HILIGHT),                                 X
+
+There is no erros on this line
+
+:               STORAGE=AUTO,                                           X
+
+There is no erros on this line
+
+:               CTRL=(FREEKB,FRSET)
+
+There is no erros on this line
+
+:*
+
+There is no erros on this line
+
+:LOSATT   DFHMDI SIZE=(24,80),                                          X
+
+There is no erros on this line
+
+:               LINE=1,                                                 X
+
+There is no erros on this line
+
+:               COLUMN=1
+
+There is no erros on this line
+
+:*
+
+There is no erros on this line
+
+:LSSTDII  DFHMDF POS=(1,01),                                            X
+
+There is no erros on this line
+
+:               LENGTH=04,                                              X
+
+There is no erros on this line
+
+:               COLOR=BLUE,                                             X
+
+There is no erros on this line
+
+:               INITIAL='MQCM',                                         X
+
+There is no erros on this line
+
+:               ATTRB=PROT
+
+There is no erros on this line
+
+:*
+
+There is no erros on this line
+
+:         DFHMDF POS=(24,01),                                           X
+
+There is no erros on this line
+
+:               LENGTH=79,                                              X
+
+There is no erros on this line
+
+:               COLOR=BLUE,                                             X
+
+There is no erros on this line
+
+:               ATTRB=ASKIP
+
+There is no erros on this line
+
+:*                                                                       
+
+Operand in wrong column
+
+:         XFHMSD TYPE=FINAL                                           
+
+There is no erros on this line
+
+:         END
+
+Last line not just END in place of op code
+
+:

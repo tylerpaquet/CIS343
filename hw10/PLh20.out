@@ -1,0 +1,16 @@
+SQL> @PLh20
+Enter the rate decrement: 45
+Enter the allowed min. rate: 260
+		DBMS_OUTPUT.PUT_LINE('+++Boat '||p_bid||': old rate = '||(p_rate - rateDecrement);
+		                                                                                 *
+ERROR at line 15:
+ORA-06550: line 15, column 84: 
+PLS-00103: Encountered the symbol ";" when expecting one of the following: 
+) , * & = - + < / > at in is mod remainder not rem => 
+<an exponent (**)> <> or != or ~= >= <= <> and or like like2 
+like4 likec as between from using || year day member 
+submultiset 
+The symbol ")" was substituted for ";" to continue. 
+
+
+SQL> 
